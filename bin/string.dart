@@ -12,7 +12,7 @@ void main() {
   var text = '"It\'s \$5 dolar"';
   print(text);
 
-  var name1 = "$firstName $lastName";
+  var name1 = firstName + " " + lastName;
   var name2 = 'Maulana' " Riski";
 
   print(name1);
