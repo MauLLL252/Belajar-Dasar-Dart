@@ -5,14 +5,14 @@ void main() {
   print(firstName);
   print(lastName);
 
-  var fullname = '$firstName ${lastName}';
+  var fullname = '$firstName $lastName';
 
   print(fullname);
 
-  var text = '\"It\'s \$5 dolar\"';
+  var text = '"It\'s \$5 dolar"';
   print(text);
 
-  var name1 = firstName + " " + lastName;
+  var name1 = "$firstName $lastName";
   var name2 = 'Maulana' " Riski";
 
   print(name1);
